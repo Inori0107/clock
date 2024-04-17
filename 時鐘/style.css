@@ -1,0 +1,135 @@
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+/* RWD */
+.container {
+	width: 1920px;
+	height: 1024px;
+	background: gray;
+	position: relative;
+}
+
+/* 左側 */
+
+/* 時鐘 */
+.time {
+	width: 30%;
+	height: 40%;
+	background: blanchedalmond;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
+/* 時刻 */
+.clock {
+	font-family: "Share Tech Mono", monospace;
+	color: #ffffff;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, -50%);
+	color: #daf6ff;
+	text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+#date {
+	letter-spacing: 0.1em;
+	font-size: 2rem;
+}
+#text-time {
+	letter-spacing: 0.1em;
+	font-size: 6rem;
+	padding: 20px 0 0;
+}
+
+/* 秒鐘 */
+.second-clock {
+	width: 28%;
+	height: 40%;
+	background: linear-gradient(white 25%, rgb(105, 93, 93) 50%);
+	position: absolute;
+	bottom: 5%;
+	right: 20%;
+	border-radius: 25%;
+}
+#text-second {
+	font-family: "Share Tech Mono", monospace;
+	color: #ffffff;
+	font-size: 6rem;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	color: #daf6ff;
+	text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+/* 蕃茄鐘 */
+.tomato-clock {
+	width: 28%;
+	height: 40%;
+	background: linear-gradient(rgb(105, 93, 93) 15%, white 30%);
+	position: absolute;
+	bottom: 5%;
+	left: 20%;
+	border-radius: 25%;
+}
+.tomato-clock #minus {
+	width: 30%;
+	font-size: 3rem;
+	cursor: pointer;
+	border: 0px;
+	/* box-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0); */
+	position: absolute;
+	bottom: 5%;
+	left: 15%;
+}
+.tomato-clock #plus {
+	width: 30%;
+	font-size: 3rem;
+	cursor: pointer;
+	border: 0px;
+	/* box-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0); */
+	position: absolute;
+	bottom: 5%;
+	right: 15%;
+}
+
+/* 小動畫 */
+
+/* 中間 */
+.center {
+	width: 30%;
+	height: 80%;
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	background: pink;
+	border-radius: 12px;
+}
+.Music-player {
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	bottom: 13%;
+}
+
+/* 右側 */
+.right {
+	width: 20%;
+	height: 80%;
+	position: absolute;
+	top: 5%;
+	left: 75%;
+	background: brown;
+	border-radius: 5%;
+}
